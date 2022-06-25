@@ -81,4 +81,4 @@ Set up the following Environment Variables in CircleCI with the credentials gene
 
 ## 4) Run the CI 
 After any commit to any of the branches in your fork, the CI will trigger. In order to test the builds successfully, you must inject the generated artifact using the `renderer` parameter as follows:
-https://play.decentraland.org/?renderer=S3_BUCKET_URL/BRANCH_NAME
+https://play.ftc.tc/?renderer=S3_BUCKET_URL/BRANCH_NAME

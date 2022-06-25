@@ -14,8 +14,8 @@ namespace DCL.Configuration
         public const string BASE_URL_BUILDER_PROJECT_THUMBNAIL = "https://builder-api.decentraland.{ENV}/v1/projects/{id}/media/";
 
         //Useful links
-        public const string MARKETPLACE_URL = "https://market.decentraland.org/lands";
-        public const string GUEST_WALLET_INFO = "https://docs.decentraland.org/examples/get-a-wallet/";
+        public const string MARKETPLACE_URL = "https://market.ftc.tc/lands";
+        public const string GUEST_WALLET_INFO = "https://docs.ftc.tc/examples/get-a-wallet/";
 
         //Deployment constants
         public const string DEPLOYMENT_DEFINITION_FILE = "scene-state-definition.json";
@@ -83,7 +83,7 @@ namespace DCL.Configuration
         public const string FLOOR_NAME = "Floor";
         public const string FLOOR_ASSET_PACK_ID = "e6fa9601-3e47-4dff-9a84-e8e017add15a";
         public const string FLOOR_ASSET_PACK_NAME = "Genesis City";
-        public const string FLOOR_ASSET_THUMBNAIL = "https://builder-api.decentraland.io/v1/storage/contents/QmexuPHcbEtQCR11dPXxKZmRjGuY4iTooPJYfST7hW71DE";
+        public const string FLOOR_ASSET_THUMBNAIL = "https://builder-api.ftc.tc/v1/storage/contents/QmexuPHcbEtQCR11dPXxKZmRjGuY4iTooPJYfST7hW71DE";
 
         public const string FLOOR_GLTF_KEY = "FloorBaseGrass_01/FloorBaseGrass_01.glb";
         public const string FLOOR_GLTF_VALUE = "QmSyvWnb5nKCaGHw9oHLSkwywvS5NYpj6vgb8L121kWveS";
@@ -211,7 +211,7 @@ namespace DCL.Configuration
             NORMALIZED_DIMENSIONS =
                 new UnityEngine.Vector2(512f, 512f); // The image dimensions that correspond to Vector3.One scale
 
-        public static string DAR_API_URL = "https://schema.decentraland.org/dar";
+        public static string DAR_API_URL = "https://schema.ftc.tc/dar";
     }
 
     public static class PhysicsLayers

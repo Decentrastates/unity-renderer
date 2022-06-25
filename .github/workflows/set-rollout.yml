@@ -23,7 +23,7 @@ jobs:
           packageVersion: ${{ github.event.deployment.payload.packageVersion }}
 
           # Rollout information
-          deploymentDomain: "play.decentraland.zone"
+          deploymentDomain: "play.ftc.tc"
           deploymentName: "dcs-unity-renderer"
           percentage: 100
 
@@ -40,7 +40,7 @@ jobs:
           packageVersion: ${{ github.event.deployment.payload.packageVersion }}
 
           # Rollout information
-          deploymentDomain: "play.decentraland.today"
+          deploymentDomain: "play.ftc.tc"
           deploymentName: "dcs-unity-renderer"
           percentage: 100
 
@@ -57,6 +57,6 @@ jobs:
           packageVersion: ${{ github.event.deployment.payload.packageVersion }}
 
           # Rollout information
-          deploymentDomain: "play.decentraland.org"
+          deploymentDomain: "play.ftc.tc"
           deploymentName: "dcs-unity-renderer"
           percentage: 0

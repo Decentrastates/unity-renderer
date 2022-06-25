@@ -1878,11 +1878,11 @@ MonoBehaviour:
   m_text: "1. Acceptance of Terms\r\n\r\nThe Decentraland Foundation (the \"Foundation\"),
     acting for the benefit of the Decentraland community as a whole, holds the intellectual
     property rights over, and makes available, (a) the DCL Client, the Desktop Client,
-    the SDK 5.0, the Marketplace (https://market.decentraland.org), the Builder,
+    the SDK 5.0, the Marketplace (https://market.ftc.tc), the Builder,
     the Blog, Events, Agora, Forum, the Land Manager, the Command Line Interface,
     DAO, the Developers\u2019 Hub, the Rewards tool which, with any other features,
     tools and/or materials made available from time to time by the Foundation, are
-    referred to herein as the \"Tools\" and (b) the website https://decentraland.org
+    referred to herein as the \"Tools\" and (b) the website https://ftc.tc
     (the \"Site\"). Please read these Terms of Use (the \"Terms\" or \"Terms of Use\")
     carefully before using the Tools and the Site. By using or otherwise accessing
     the Tools and the Site, you: (1) accept and agree to be bound by these Terms;
@@ -1890,9 +1890,9 @@ MonoBehaviour:
     own risk, as further explained in Section 2 below; (3) represent that you are
     old enough to use the Tools and the Site pursuant to Sections 3 and 9 below;
     (4) consent to the collection, use, disclosure and other handling of information
-    as described in the Privacy Policy, available here https://decentraland.org/privacy
+    as described in the Privacy Policy, available here https://ftc.tc/privacy
     ; (5) accept and agree (5.1.) the Content Policy approved by the DAO, available
-    here https://decentraland.org/content, and (5.2.) any additional terms and conditions
+    here https://ftc.tc/content, and (5.2.) any additional terms and conditions
     of participation issued by the Foundation from time to time. If you do not agree
     to the Terms, then you must not access or use the Tools or the Site.\r\n\r\nAs
     per the endowment received, the Foundation makes available the Tools and the
@@ -1900,7 +1900,7 @@ MonoBehaviour:
     platform (\"Decentraland\"), a decentralized virtual world. The Foundation does
     not own or control Decentraland, as ownership and governance is decentralized
     in the community through the DAO.\r\n\r\nDecentraland is governed by a decentralized
-    autonomous organization (the \"DAO\"). For further information please see https://dao.decentraland.org.\r\n\r\nThe
+    autonomous organization (the \"DAO\"). For further information please see https://dao.ftc.tc.\r\n\r\nThe
     Foundation has no continuing obligation to operate the Tools and the Site and
     may cease to operate one or more of the Tools in the future, at its exclusive
     discretion, with no liability whatsoever in connection thereto.\r\n\r\nWith respect
@@ -2353,7 +2353,7 @@ MonoBehaviour:
     use of said Content. You are advised to review any such terms, conditions and
     policies before accessing any such Content. All Content must comply with the
     Content Policy.\r\n\r\n12.5 The use of Decentraland logo and trademarks are regulated
-    in the Terms of use available at https://decentraland.org/brand/\r\n\r\n13. Open
+    in the Terms of use available at https://ftc.tc/brand/\r\n\r\n13. Open
     Source License.\r\n\r\n13.1 Grant of Copyright License.\r\n\r\nSubject to the
     terms and conditions of this License, each Contributor hereby grants to you a
     perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright
@@ -2493,7 +2493,7 @@ MonoBehaviour:
     a statement by you, made under penalty of perjury, that the above information
     in your Notice is accurate and that you are Intellectual Property owner or authorized
     to act on the owner's behalf.\r\n\r\nThe Foundation can be reached at email:
-    legal@decentraland.org\r\n\r\nTo the extent possible, the Foundation may try
+    legal@ftc.tc\r\n\r\nTo the extent possible, the Foundation may try
     to reach the would-be infringing party to forward your concerns. The Foundation
     is not in a position to assess the legal merits of the claims.\r\n\r\nAs the
     Foundation does not control the Content being uploaded by the users, if the user
@@ -2559,7 +2559,7 @@ MonoBehaviour:
     court's jurisdiction.\r\n\r\n18.5 30-day Right to Opt-Out\r\n\r\nYou have the
     right to opt-out and not be bound by the arbitration and class action waiver
     provisions set forth above by sending written notice of your decision to opt-out
-    to the following email address: legal@decentraland.org. Your notice must be sent
+    to the following email address: legal@ftc.tc. Your notice must be sent
     within 30 days of your first use of the Tools, otherwise you shall be bound to
     arbitrate disputes in accordance with the terms of those paragraphs. If you opt-out
     of these arbitration provisions, the Foundation also will not be bound by them.\r\n\r\n18.6
@@ -2593,7 +2593,7 @@ MonoBehaviour:
     Titles\r\n\r\nThe section titles in the Terms are for convenience only and have
     no legal or contractual effect.\r\n\r\n19.5 Communications\r\n\r\nUsers with
     questions, complaints or claims with respect to the Site or the Tools may contact
-    us using the relevant contact information set forth above and at legal@decentraland.org.\r\n\r\n20.
+    us using the relevant contact information set forth above and at legal@ftc.tc.\r\n\r\n20.
     Definitions\r\n\r\nThe following definitions shall apply only to Section 13 of
     the Terms:\r\n\r\n\"Contribution\" shall mean any work of authorship, including
     the original version of the Work and any modifications or additions to that Work

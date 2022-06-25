@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088742d917e2891499ac6de2a9078f98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  urlToGo: https://decentraland.org
+  urlToGo: https://ftc.tc
 --- !u!114 &3607967796253031217
 MonoBehaviour:
   m_ObjectHideFlags: 0

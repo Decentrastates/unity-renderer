@@ -49,7 +49,7 @@ public class HighlightsSubSectionComponentController : IHighlightsSubSectionComp
     internal const int DEFAULT_NUMBER_OF_TRENDING_PLACES = 10;
     internal const int DEFAULT_NUMBER_OF_FEATURED_PLACES = 9;
     internal const int DEFAULT_NUMBER_OF_LIVE_EVENTS = 3;
-    internal const string EVENT_DETAIL_URL = "https://events.decentraland.org/event/?id={0}";
+    internal const string EVENT_DETAIL_URL = "https://events.ftc.tc/event/?id={0}";
     
     internal IHighlightsSubSectionComponentView view;
     internal IPlacesAPIController placesAPIApiController;

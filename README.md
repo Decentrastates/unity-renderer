@@ -1,6 +1,6 @@
 # Decentraland Unity Renderer
 
-This repository contains the Unity part of [decentraland explorer](https://play.decentraland.org). This component works alongside Kernel to produce an Explorer build.
+This repository contains the Unity part of [decentraland explorer](https://play.ftc.tc). This component works alongside Kernel to produce an Explorer build.
 
 ## Before you start
 
@@ -31,7 +31,7 @@ This is the recommended path for artists.
 2. Open the scene named `InitialScene`
 3. Within the scene, select the `DebugConfig` GameObject.
 4. On `DebugConfig` inspector, make sure that `Base url mode` is set to `Custom`
-   and `Base url custom` is set to `https://play.decentraland.zone/?`
+   and `Base url custom` is set to `https://play.ftc.tc/?`
 5. Run the Initial Scene in the Unity editor
 6. A browser tab with `explorer` should open automatically and steal your focus, don't close it!. Login with your wallet, go back to Unity and explorer should start running on the `Game View`.
 7. As you can see, `DebugConfig` has other special options like the starting position, etc. You are welcome to use them as you see fit, but you'll have to close the tab and restart the scene for them to make effect.
@@ -54,13 +54,13 @@ Then, on the Unity editor, click on `Assets > Reimport All`
 
 To test against a build made on this repository, you can use a link with this format:
 
-    https://play.decentraland.zone/?renderer-branch=<branch-name>
+    https://play.ftc.tc/?renderer-branch=<branch-name>
 
 Note that using this approach, the Unity builds will run against kernel `master` HEAD.
 
 If you want to test your Unity branch against a specific kernel branch, you'll have to use the `renderer` url param like this:
 
-    https://play.decentraland.zone/?renderer-branch=<branch-name>&kernel-branch=<kernel-branch-name>
+    https://play.ftc.tc/?renderer-branch=<branch-name>&kernel-branch=<kernel-branch-name>
 
 If the CI for both branches succeeds, you can browse to the generated link and test your changes. Bear in mind that any push will kick the CI. There's no need to create a pull request.
 

@@ -13,7 +13,7 @@ namespace DCL.HelpAndSupportHUD
         private const string PATH = "HelpAndSupportHUD";
         private const string VIEW_OBJECT_NAME = "_HelpAndSupportHUD";
         private const string JOIN_DISCORD_URL = "https://dcl.gg/discord";
-        private const string FAQ_URL = "https://docs.decentraland.org/decentraland/faq/";
+        private const string FAQ_URL = "https://docs.ftc.tc/decentraland/faq/";
 
         [SerializeField] private ShowHideAnimator helpAndSupportAnimator;
         [SerializeField] private Button joinDiscordButton;

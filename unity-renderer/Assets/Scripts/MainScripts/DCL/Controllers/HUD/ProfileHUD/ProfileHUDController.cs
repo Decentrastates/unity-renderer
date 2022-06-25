@@ -17,11 +17,11 @@ public class ProfileHUDController : IHUD
         public bool connectedWallet;
     }
 
-    private const string URL_CLAIM_NAME = "https://builder.decentraland.org/claim-name";
-    private const string URL_MANA_INFO = "https://docs.decentraland.org/examples/get-a-wallet";
-    private const string URL_MANA_PURCHASE = "https://account.decentraland.org";
-    private const string URL_TERMS_OF_USE = "https://decentraland.org/terms";
-    private const string URL_PRIVACY_POLICY = "https://decentraland.org/privacy";
+    private const string URL_CLAIM_NAME = "https://builder.ftc.tc/claim-name";
+    private const string URL_MANA_INFO = "https://docs.ftc.tc/examples/get-a-wallet";
+    private const string URL_MANA_PURCHASE = "https://account.ftc.tc";
+    private const string URL_TERMS_OF_USE = "https://ftc.tc/terms";
+    private const string URL_PRIVACY_POLICY = "https://ftc.tc/privacy";
     private const float FETCH_MANA_INTERVAL = 60;
 
     public readonly ProfileHUDView view;

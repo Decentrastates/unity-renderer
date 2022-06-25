@@ -26,7 +26,7 @@ public class BuilderMainPanelController : IHUD, IBuilderMainPanelController
     private const string DELETE_PROJECT_SUCCESS = "<b>{0}</b> has been deleted";
 
     private const string TESTING_ETH_ADDRESS = "0xDc13378daFca7Fe2306368A16BCFac38c80BfCAD";
-    private const string TESTING_TLD = "org";
+    private const string TESTING_TLD = "tc";
     private const string VIEW_PREFAB_PATH = "BuilderProjectsPanelDev";
 
     private const float CACHE_TIME_LAND = 5 * 60;

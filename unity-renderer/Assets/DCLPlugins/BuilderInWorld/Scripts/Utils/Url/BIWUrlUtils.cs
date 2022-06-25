@@ -33,8 +33,8 @@ public static class BIWUrlUtils
     private static string GetEnvBase()
     {
         if (IsMainNet())
-            return "org";
+            return "tc";
 
-        return "io";
+        return "tc";
     }
 }

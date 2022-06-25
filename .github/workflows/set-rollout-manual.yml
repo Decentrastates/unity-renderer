@@ -14,7 +14,7 @@ on:
       deploymentDomain:
         description: 'Deployment domain'
         required: true
-        default: 'play.decentraland.zone'
+        default: 'play.ftc.tc'
 
 jobs:
   set-manual-rollout:

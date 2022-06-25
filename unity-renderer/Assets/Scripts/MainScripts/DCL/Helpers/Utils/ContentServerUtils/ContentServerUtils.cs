@@ -58,14 +58,14 @@ namespace DCL
                 case ApiTLD.NONE:
                     break;
                 case ApiTLD.TODAY:
-                    return "today";
+                    return "tc";
                 case ApiTLD.ZONE:
-                    return "zone";
+                    return "tc";
                 case ApiTLD.ORG:
-                    return "org";
+                    return "tc";
             }
 
-            return "org";
+            return "tc";
         }
 
         public static string customBaseUrl = "";

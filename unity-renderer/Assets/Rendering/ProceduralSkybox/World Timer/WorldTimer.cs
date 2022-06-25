@@ -12,7 +12,7 @@ namespace DCL.ServerTime
         public event OnTimeUpdated OnTimeChanged;
 
         public float serverHitFrequency;
-        public string serverURL = "https://peer.decentraland.org/lambdas/health";
+        public string serverURL = "https://peer.ftc.tc/lambdas/health";
 
         private bool initialized = false;
         private DateTime lastTimeFromServer = DateTime.Now.ToUniversalTime();

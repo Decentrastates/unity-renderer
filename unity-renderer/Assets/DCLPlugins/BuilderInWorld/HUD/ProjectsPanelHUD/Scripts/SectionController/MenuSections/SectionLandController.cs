@@ -13,7 +13,7 @@ namespace DCL.Builder
     {
         public const string VIEW_PREFAB_PATH = "BuilderProjectsPanelMenuSections/SectionLandsView";
 
-        private const string BUILDER_LAND_URL_FORMAT = "https://builder.decentraland.org/land/{0}";
+        private const string BUILDER_LAND_URL_FORMAT = "https://builder.ftc.tc/land/{0}";
 
         public event Action<string> OnRequestOpenUrl;
         public event Action<Vector2Int> OnRequestGoToCoords;

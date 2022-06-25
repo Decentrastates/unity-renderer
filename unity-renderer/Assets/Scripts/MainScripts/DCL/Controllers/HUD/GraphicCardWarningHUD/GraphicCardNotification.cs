@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class GraphicCardNotification : Notification
 {
     // Filling this with the URL will automatically make the button visible
-    private const string MORE_INFO_URL = "https://docs.decentraland.org/decentraland/hardware-acceleration/";
+    private const string MORE_INFO_URL = "https://docs.ftc.tc/decentraland/hardware-acceleration/";
     private const string DONT_SHOW_GRAPHIC_CARD_POPUP_KEY = "DONT_SHOW_GRAPHIC_CARD_POPUP";
     [SerializeField] private Button moreInfoButton;
     [SerializeField] private Toggle dontShowAgain;

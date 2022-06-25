@@ -208,10 +208,10 @@ namespace DCL
 
             if (!webSocketSSL)
             {
-                if (baseUrl.Contains("play.decentraland.org"))
+                if (baseUrl.Contains("play.ftc.tc"))
                 {
                     Debug.LogError(
-                        "play.decentraland.org only works with WebSocket SSL, please change the base URL to play.decentraland.zone");
+                        "play.ftc.tc only works with WebSocket SSL, please change the base URL to play.ftc.tc");
                     QuitGame();
                     return;
                 }

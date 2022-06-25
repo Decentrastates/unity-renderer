@@ -29,8 +29,8 @@ public interface IEventsAPIController
 [ExcludeFromCodeCoverage]
 public class EventsAPIController : IEventsAPIController
 {
-    internal const string URL_GET_ALL_EVENTS = "https://events.decentraland.org/api/events";
-    internal const string URL_POST_MESSAGE = "https://events.decentraland.org/api/message";
+    internal const string URL_GET_ALL_EVENTS = "https://events.ftc.tc/api/events";
+    internal const string URL_POST_MESSAGE = "https://events.ftc.tc/api/message";
     internal const string ATTEND_EVENTS_MESSAGE_TYPE = "attend";
 
     internal UserProfile ownUserProfile => UserProfile.GetOwnUserProfile();

@@ -12,7 +12,7 @@ public static class ExploreEventsUtils
 {
     internal const string EVENT_CARD_MODAL_ID = "EventCard_Modal";
     internal const string LIVE_TAG_TEXT = "LIVE";
-    internal const string EVENT_DETAIL_URL = "https://events.decentraland.org/event/?id={0}";
+    internal const string EVENT_DETAIL_URL = "https://events.ftc.tc/event/?id={0}";
 
     /// <summary>
     /// Instantiates (if does not already exists) a event card modal from the given prefab.
