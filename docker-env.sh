@@ -9,5 +9,5 @@ docker run -it \
   -e "DEVELOPERS_UNITY_LICENSE_CONTENT_2020_3_BASE64=${DEVELOPERS_UNITY_LICENSE_CONTENT_2020_3_BASE64}" \
   -w "/project" \
   -v "$(pwd):/project" \
-  decentraland/renderer-build:2020.3.0 \
+  redblow/renderer-build:2020.3.0 \
   bash
