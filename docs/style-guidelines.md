@@ -2,10 +2,10 @@
 
 Maintaining a common code style will boost our productivity by reducing the amount of noise in Code Reviews and allowing new members to on-board faster.
 When working with the Unity Project these guidelines (to be documented) must be followed and to ease the process we have a pre-commit hook to deal with it automatically.
-The repo `https://github.com/decentraland/reshaper-pre-commit-hook` contains both the installing bash script and the pre-commit hook itself.
+The repo `https://github.com/decentrastates/reshaper-pre-commit-hook` contains both the installing bash script and the pre-commit hook itself.
 
 To install it go to the root of your explorer repository and run the following command on it:
-`curl -s https://raw.githubusercontent.com/decentraland/reshaper-pre-commit-hook/master/install-git-hook.sh | bash`
+`curl -s https://raw.githubusercontent.com/decentrastates/reshaper-pre-commit-hook/master/install-git-hook.sh | bash`
 
 ### Notes 
 

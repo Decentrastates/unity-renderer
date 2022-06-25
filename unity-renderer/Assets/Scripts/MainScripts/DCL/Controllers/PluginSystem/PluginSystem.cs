@@ -9,7 +9,7 @@ namespace DCL
 
     /// <summary>
     /// This class implements a plugin system pattern described in:
-    /// https://github.com/decentraland/adr/blob/main/docs/ADR-56-plugin-system.md
+    /// https://github.com/decentrastates/adr/blob/main/docs/ADR-56-plugin-system.md
     /// 
     /// - Many plugins can share the same feature flag
     /// - Plugins are registered by using a PluginBuilder delegate that must create and return the plugin instance.

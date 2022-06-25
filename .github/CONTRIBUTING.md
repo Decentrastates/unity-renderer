@@ -1,4 +1,4 @@
-#### Please read the guidelines in https://github.com/decentraland/standards
+#### Please read the guidelines in https://github.com/decentrastates/standards
 
 # Security
 
@@ -63,6 +63,6 @@ Avoid `Merge branch 'a' into 'master'` commit messages. Rebase when possible
 
 Every commit should be linted using the command `npm run lint:fix`
 
-For TSLint refer to: https://github.com/decentraland/standards/blob/master/standards/tslint-configuration.md
+For TSLint refer to: https://github.com/decentrastates/standards/blob/master/standards/tslint-configuration.md
 
-For TypeScript (and react specific) guidelines refer to https://github.com/decentraland/standards/blob/master/standards/react-redux.md
+For TypeScript (and react specific) guidelines refer to https://github.com/decentrastates/standards/blob/master/standards/react-redux.md

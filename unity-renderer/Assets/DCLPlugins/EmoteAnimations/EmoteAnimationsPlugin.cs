@@ -2,7 +2,7 @@ using AvatarSystem;
 
 namespace DCL.Emotes
 {
-    // [ADR 66 - https://github.com/decentraland/adr]
+    // [ADR 66 - https://github.com/decentrastates/adr]
     public class EmoteAnimationsPlugin : IPlugin
     {
         private readonly EmoteAnimationsTracker emotesAnimationTracker;

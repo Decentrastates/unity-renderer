@@ -47,7 +47,7 @@ public class UIInputTextVisualTests : UIVisualTestsBase
 
     // Our current architecture for UIInputText/UIText does not represent the one from the SDK
     // so we are forced to use a mock model that contains what we need.
-    // Further information: https://github.com/decentraland/unity-renderer/issues/805
+    // Further information: https://github.com/decentrastates/unity-renderer/issues/805
     private class Mock_UIInputTextModel : UIInputText.Model
     {
         public float fontSize;

@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace AvatarSystem
 {
-    // [ADR 65 - https://github.com/decentraland/adr]
+    // [ADR 65 - https://github.com/decentrastates/adr]
     public class Avatar : IAvatar
     {
         private const float RESCALING_BOUNDS_FACTOR = 100f;

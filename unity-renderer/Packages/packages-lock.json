@@ -234,7 +234,7 @@
       "url": "https://packages.unity.com"
     },
     "net.tnrd.nsubstitute": {
-      "version": "https://github.com/decentraland/Unity3D-NSubstitute.git",
+      "version": "https://github.com/decentrastates/Unity3D-NSubstitute.git",
       "depth": 0,
       "source": "git",
       "dependencies": {},

@@ -1,13 +1,13 @@
 ### Profiling a build with Unity Editor
 
-1. Follow the [local build steps](https://github.com/decentraland/unity-renderer#debug-with-browsers--local-unity-build) but for step 4 apply the following settings before building:
+1. Follow the [local build steps](https://github.com/decentrastates/unity-renderer#debug-with-browsers--local-unity-build) but for step 4 apply the following settings before building:
 
   - Open the Player Settings and go to the **compression** setting and set it to **Disabled**
 
   - Open the build settings and toggle on "Development Build", "Autoconnect Profiler" and **make sure Deep Profiling is toggled off**
 
 2. In Unity Editor open the profiler at window -> analysis -> profiler
-3. Since Unity2020, the WebGL development build doesn't produce the same 3 `.unityweb` files, instead there is a `.wasm` file and two `.js` files. Move those files into the corresponding kernel folder (right next to the production `.unityweb` files) and then update (in [unity-interface loader.ts](https://github.com/decentraland/explorer/blob/master/kernel/packages/unity-interface/loader.ts) or in [browser-interface/src/index.ts](https://github.com/decentraland/unity-renderer/blob/master/browser-interface/src/index.ts)) the `config` const properties to point to your newly created build files, like so:
+3. Since Unity2020, the WebGL development build doesn't produce the same 3 `.unityweb` files, instead there is a `.wasm` file and two `.js` files. Move those files into the corresponding kernel folder (right next to the production `.unityweb` files) and then update (in [unity-interface loader.ts](https://github.com/decentrastates/explorer/blob/master/kernel/packages/unity-interface/loader.ts) or in [browser-interface/src/index.ts](https://github.com/decentrastates/unity-renderer/blob/master/browser-interface/src/index.ts)) the `config` const properties to point to your newly created build files, like so:
 ```
 dataUrl: resolveWithBaseUrl('unity.data'),
 frameworkUrl: resolveWithBaseUrl('unity.framework.js'),

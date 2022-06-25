@@ -140,7 +140,7 @@ async function createPackageJson() {
         },
         repository: {
           type: "git",
-          url: "https://github.com/decentraland/unity-renderer.git",
+          url: "https://github.com/decentrastates/unity-renderer.git",
         },
       },
       null,

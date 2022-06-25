@@ -96,9 +96,9 @@ When the steps are followed, you will be able to run the local Unity build by go
 ### Steps
 
 1. Make sure you have the proper Unity version up and running
-2. Make sure you have [Kernel repository](https://github.com/decentraland/kernel) cloned.
+2. Make sure you have [Kernel repository](https://github.com/decentrastates/kernel) cloned.
 3. Make sure you are running kernel through `make watch` command in the cloned repo directory.
-4. Make sure you have the [explorer website repository](https://github.com/decentraland/explorer-website) cloned.
+4. Make sure you have the [explorer website repository](https://github.com/decentrastates/explorer-website) cloned.
 5. Make sure you have the local website up and running by executing `npm run start:linked` in the cloned repo directory.
 6. Produce a Unity wasm targeted build using the Build menu.
 7. When the build finishes, copy all the files inside the resulting `/build` folder (`unity.loader.js` is not necessary as we use a modified loader) and paste them inside `explorer-website/node_modules/dcs-unity-renderer`.
@@ -110,7 +110,7 @@ When the steps are followed, you will be able to run the local Unity build by go
 - [How to use Unity visual tests](docs/how-to-use-unity-visual-tests.md)
 - [How to profile a local Unity build remotely](docs/how-to-profile-a-local-unity-build-remotely.md)
 
-For more advanced topics, don't forget to check out our [Architecture Decisions Records](https://github.com/decentraland/adr) (ADR) repository.
+For more advanced topics, don't forget to check out our [Architecture Decisions Records](https://github.com/decentrastates/adr) (ADR) repository.
 
 ## Setup CircleCI
 
@@ -118,4 +118,4 @@ For more advanced topics, don't forget to check out our [Architecture Decisions 
 ## Copyright info
 
 This repository is protected with a standard Apache 2 license. See the terms and conditions in
-the [LICENSE](https://github.com/decentraland/unity-renderer/blob/master/LICENSE) file.
+the [LICENSE](https://github.com/decentrastates/unity-renderer/blob/master/LICENSE) file.
