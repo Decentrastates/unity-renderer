@@ -24,7 +24,7 @@ jobs:
 
           # Rollout information
           deploymentDomain: "play.decentraland.zone"
-          deploymentName: "@dcl/unity-renderer"
+          deploymentName: "dcs-unity-renderer"
           percentage: 100
 
       - name: set-rollout-today
@@ -41,7 +41,7 @@ jobs:
 
           # Rollout information
           deploymentDomain: "play.decentraland.today"
-          deploymentName: "@dcl/unity-renderer"
+          deploymentName: "dcs-unity-renderer"
           percentage: 100
 
       - name: set-rollout-org
@@ -58,5 +58,5 @@ jobs:
 
           # Rollout information
           deploymentDomain: "play.decentraland.org"
-          deploymentName: "@dcl/unity-renderer"
+          deploymentName: "dcs-unity-renderer"
           percentage: 0

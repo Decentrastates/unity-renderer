@@ -101,7 +101,7 @@ When the steps are followed, you will be able to run the local Unity build by go
 4. Make sure you have the [explorer website repository](https://github.com/decentraland/explorer-website) cloned.
 5. Make sure you have the local website up and running by executing `npm run start:linked` in the cloned repo directory.
 6. Produce a Unity wasm targeted build using the Build menu.
-7. When the build finishes, copy all the files inside the resulting `/build` folder (`unity.loader.js` is not necessary as we use a modified loader) and paste them inside `explorer-website/node_modules/@dcl/unity-renderer`.
+7. When the build finishes, copy all the files inside the resulting `/build` folder (`unity.loader.js` is not necessary as we use a modified loader) and paste them inside `explorer-website/node_modules/dcs-unity-renderer`.
 8. Run the browser explorer through `localhost:3000`. Now, it should use your local Unity build.
 9. If you need a Unity re-build, you can just replace the files and reload the browser without restarting the `make watch` process nor the website.
 
